@@ -1,3 +1,3 @@
 class Detector {
-  /* ...content... */
+  /*...content...*/
 }
