@@ -1,9 +1,11 @@
+Detector detector = new Detector();
+
 @Test
 public void saludarAManuel() {
-  Assert.assertEquals("Entero", Detector.detectarTipo(2));
+  Assert.assertEquals("Entero", detector.detectarTipo(2));
 }
 
 @Test
 public void saludarAManuel() {
-  Assert.assertEquals("Flotante", Detector.detectarTipo(2.0));
+  Assert.assertEquals("Flotante", detector.detectarTipo(2.0));
 }
