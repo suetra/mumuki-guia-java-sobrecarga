@@ -1,14 +1,14 @@
 @Test
 public void saludarAManuel() {
-  Assert.assertEquals(SaludoPersonalizado.saludar("Manuel"), "Hola Manuel");
+  Assert.assertEquals("Hola Manuel", SaludoPersonalizado.saludar("Manuel"));
 }
 
 @Test
 public void saludarAManuelBelgrano() {
-  Assert.assertEquals(SaludoPersonalizado.saludar("Manuel", "Belgrano"), "Hola Belgrano, Manuel");
+  Assert.assertEquals("Hola Belgrano, Manuel", SaludoPersonalizado.saludar("Manuel", "Belgrano"));
 }
 
 @Test
 public void saludarASanMartin() {
-  Assert.assertEquals(SaludoPersonalizado.saludar("Pablo", "Perez"), "Hola Perez, Pablo");
+  Assert.assertEquals("Hola Perez, Pablo", SaludoPersonalizado.saludar("Pablo", "Perez"));
 }
