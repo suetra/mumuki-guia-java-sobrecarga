@@ -5,10 +5,10 @@ public void saludarAManuel() {
 
 @Test
 public void saludarAManuelBelgrano() {
-  Assert.assertEquals(SaludoPersonalizado.("Manuel", "Belgrano"), "Hola Belgrano, Manuel");
+  Assert.assertEquals(SaludoPersonalizado.saludar("Manuel", "Belgrano"), "Hola Belgrano, Manuel");
 }
 
 @Test
 public void saludarASanMartin() {
-  Assert.assertEquals(SaludoPersonalizado.("Pablo", "Perez"), "Hola Perez, Pablo");
+  Assert.assertEquals(SaludoPersonalizado.saludar("Pablo", "Perez"), "Hola Perez, Pablo");
 }
